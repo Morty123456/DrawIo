@@ -78,9 +78,9 @@
         <mxCell id="7jD47ZPkDI5JuOup1UDq-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7jD47ZPkDI5JuOup1UDq-25" target="7jD47ZPkDI5JuOup1UDq-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7jD47ZPkDI5JuOup1UDq-39" value="同步数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7jD47ZPkDI5JuOup1UDq-38">
+        <mxCell id="7jD47ZPkDI5JuOup1UDq-39" value="同步PG数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7jD47ZPkDI5JuOup1UDq-38">
           <mxGeometry x="-0.0634" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7jD47ZPkDI5JuOup1UDq-25" value="边端PG" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
@@ -138,16 +138,16 @@
         <mxCell id="7jD47ZPkDI5JuOup1UDq-40" value="云端S3" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="601" y="492.5" width="93" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="7jD47ZPkDI5JuOup1UDq-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7jD47ZPkDI5JuOup1UDq-25" target="7jD47ZPkDI5JuOup1UDq-40">
+        <mxCell id="7jD47ZPkDI5JuOup1UDq-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7jD47ZPkDI5JuOup1UDq-32" target="7jD47ZPkDI5JuOup1UDq-40">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="492" y="402" />
-              <mxPoint x="492" y="518" />
+              <mxPoint x="466" y="324" />
+              <mxPoint x="466" y="527" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7jD47ZPkDI5JuOup1UDq-43" value="同步S3数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7jD47ZPkDI5JuOup1UDq-42">
-          <mxGeometry x="-0.1316" y="3" relative="1" as="geometry">
+        <mxCell id="7jD47ZPkDI5JuOup1UDq-46" value="同步S3锁存数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7jD47ZPkDI5JuOup1UDq-45">
+          <mxGeometry x="-0.1129" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
